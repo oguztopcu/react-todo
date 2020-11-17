@@ -1,0 +1,44 @@
+.todo-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.form-element {
+    display: flex;
+    width: 100%;
+}
+
+.form-element .form-input {
+    display: block;
+    width: 100%;
+    padding: 10px 7px;
+    font-size: 1.2rem;
+}
+
+.todo-lists {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.todo-lists .todo-item {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    align-items: center;
+    border: 1px solid #ececec;
+    background: #fdfdfd;
+    box-shadow: 2px 4px 4px 0px #c4c4c4;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.todo-item.completed {
+    background: green;
+    border: 1px solid green;
+    color: #fff;
+}
